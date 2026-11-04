@@ -8,10 +8,9 @@ const M=[
 {id:'mambo',n:'Museo de Arte Moderno de Bogotá',la:4.6124,lo:-74.0683,a:'Calle 24 #6-00',c:'#e0838f',t:'Arte moderno y contemporáneo en un edificio de ladrillo.'},
 {id:'quinta',n:'Quinta de Bolívar',la:4.6024,lo:-74.0641,a:'Calle 20 #2-91 Este',c:'#8fbf7a',t:'La casa que Bogotá regaló a Simón Bolívar en 1820.'},
 {id:'moneda',n:'Museo Casa de Moneda',la:4.5965,lo:-74.0729,a:'Calle 11 #4-93',c:'#e9ff6d',t:'Historia del dinero y de la acuñación de monedas en Colombia.'},
-{id:'maloka',n:'Maloka',la:4.6527,lo:-74.0933,a:'Cra. 68D #24A-51',c:'#6cc3c0',t:'Centro interactivo de ciencia y tecnología.'}
 ];
 /* ENLACES: cada grupo pega aquí la URL de su museo (https://...). Si queda vacío, el mapa avisa que falta. */
-const L={oro:'',botero:'',florero:'',nacional:'https://sergioandresruizf-source.github.io/museo_Nacional_Colombia/',mambo:'',quinta:'',moneda:'',maloka:''};
+const L={oro:'',botero:'',florero:'',nacional:'https://sergioandresruizf-source.github.io/museo_Nacional_Colombia/',mambo:'',quinta:'',moneda:''};
 const go=i=>{const u=L[M[i].id],s=document.getElementById('st');if(u){s.textContent='';   location.href=u}else s.textContent=M[i].n.split(' – ')[0]+': su grupo aún no ha agregado el enlace.'};
 const P=(a,o)=>[322+(o+74.055)*1630,45+(4.82-a)*1630];
 const app=document.getElementById('app');let svg,vb,raf;
