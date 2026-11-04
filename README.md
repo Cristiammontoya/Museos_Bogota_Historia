@@ -1,8 +1,8 @@
 ### Este es un texto informativo para los que modifican el repositorio:
 - __Escribir al grupo el usuario de Github para añadirlos como colaboradores.__
 - Cuando vayan a realizar cambios, primero realizarlos de forma remota, cuando terminen, actualicen el archivo en el repositorio
-- Creen para sus museos una carpeta con imagenes, audios/música y guiones (Actualizar apenas lo suban).
-- NOTA: Si falta algún museo pueden crear una carpeta con el nombre del museo y se añadirá al mapa.
+- Creen para sus museos una carpeta para imagenes,una para audios/música y una para guiones (Actualizar apenas lo suban).
+- NOTA: Si falta algún museo pueden crear una carpeta con el nombre del museo y lo añadiré al mapa.
 
 ### Texto informativo para quienes visitan el repositorio:
 - __Propósito__: Mostrar una propuesta de contrarevolución de los museos de Bogotá con herramientas audiovisuales enfocadas en capacidades de estudiantes de ingeniería de sistemas para la materia de Historia y Cultura de la Universidad Distrital Francisco José de Caldas.
