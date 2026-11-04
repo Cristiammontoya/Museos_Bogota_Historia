@@ -1,1 +1,5 @@
-
+Grupo:
+	- Jeisson Stiven Pabon Quiroga
+	- Miguel Angel Arias Muñoz
+	- Cristian Camilo Velosa Ortiz
+	- Jean Paul Contreras Talero
